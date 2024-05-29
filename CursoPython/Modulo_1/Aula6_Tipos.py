@@ -20,7 +20,7 @@ print(n.isupper)
 #Verifica se é printável
 print(n.isprintable)
 
-#Desafio 2
+#Desafio 4
 #Faça um programa que leia algo pelo teclado e mostre na tela seu tipo primitivo e todas as informações possíveis sobre ele
 algo = input('Digite algo: ')
 print(type(algo))

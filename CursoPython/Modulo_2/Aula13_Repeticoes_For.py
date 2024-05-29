@@ -60,7 +60,7 @@ for i in range(1, 501, 2):
 print(f'A soma dos multiplos de 3, ímpares, até 500 deu {soma}')
 
 #Desafio 49
-#Refaça o exercício 9, mostrando a tabuada de um numero que o usuário escolher, só que agora utilizando um laço for
+#Refaça o exercício 9(Aula 7), mostrando a tabuada de um numero que o usuário escolher, só que agora utilizando um laço for
 n = int(input('Digite um numero: '))
 for i in range(0, 11):
     print(f'{n} X {i} = {n*i}')
@@ -80,7 +80,10 @@ print(f'A soma de todos os valores pares digitados é {soma}')
 n = int(input('Digite o primeiro termo da PA: '))
 razao = int(input('Digite a razão da PA: '))
 for i in range(n, n + (razao * 10), razao):
-    print(i)
+    if i < n + (razao * 9):
+        print(i, end=', ')
+    else:
+        print(i, end='.')
 
 #Desafio 52
 #Faça um programa que leia um número inteiro e diga se ele é ou não um número primo
