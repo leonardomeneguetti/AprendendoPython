@@ -145,8 +145,6 @@ for i in range(0, 4):
         idadeHMaisVelho = idade
     if sexo == 'F' and idade < 20:
         mulheresMenos20 += 1
-    
-
 
 # a)A média de idade do grupo
 mediaIdade = somaIdade/4
