@@ -7,6 +7,10 @@ frase = 'Curso em Vídeo Python'
 print(frase[9])
 #Resposta: 'V'
 
+#Para percorrer a string a partir do fim
+print(frase[-1])
+#Resposta: 'n'
+
 #O python permite pegar um pedaço dessa string, "string[x:y]", indo de x(start) a y-1(end), não tem problema se final for 1 a mais que o tamanho da frase
 print(frase[9:21])
 #Resposta: 'Vídeo Python'
