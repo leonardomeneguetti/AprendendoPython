@@ -37,9 +37,9 @@ pessoa = ('Leonardo', 20, 'M', 80.23)
 print(f'{pessoa[0]} tem {pessoa[1]} anos, é do sexo {pessoa[2]} e pesa {pessoa[3]} kilos')
 
 #A dunção del(variável) apaga uma variável da memória
-tupla = ('A', 'B', 'C', 'D', 'E', 'F', 'G')
-del(tupla)
-print(tupla) #Vai dar erro por não estar definido
+tuplaNova = ('A', 'B', 'C', 'D', 'E', 'F', 'G')
+del(tuplaNova)
+print(tuplaNova) #Vai dar erro por não estar definido
 del(tupla[1]) #Dá erro, pois a tupla não pode ser modificada
 
 #Desafio 72
@@ -125,9 +125,9 @@ print('-'*40)
 #Desafio 77
 #Crie um programa que tenha uma tupla com várias palavras(sem acentos). Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
 palavras = ('CACHORRO', 'GATO', 'PEIXE', 'PASSARO', 'JACARE', 'COBRA')
-for i in range(0, len(palavras)):
-    print(f'Na palavra {palavras[i]} temos ', end='')
-    for j in palavras[i]:
+for i in palavras:
+    print(f'Na palavra {i} temos ', end='')
+    for j in i:
         if j in 'AEIOU':
             print(j.lower(), end=' ')
     print('')
