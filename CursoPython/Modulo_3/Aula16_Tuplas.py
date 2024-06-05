@@ -113,7 +113,7 @@ for i in numeros:
 produtos = ('Camisa PP', 24.99, 'Camisa P', 29.99, 'Camisa M', 34.99, 'Camisa G', 39.99, 'Camisa GG', 44.99,
              'Calça PP', 34.99, 'Calça P', 39.99, 'Calça M', 44.99, 'Calça G', 49.99, 'Calça GG', 54.99)
 print('-'*40)
-print(F'{"LISTAGEM DE PREÇOS":^40}')
+print(f'{"LISTAGEM DE PREÇOS":^40}')
 print('-'*40)
 for i in range(0, len(produtos)):
     if i % 2 == 0:
