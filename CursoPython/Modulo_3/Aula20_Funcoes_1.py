@@ -8,7 +8,7 @@ def mensagem(msg):
 mensagem('Aprendendo Python')
 mensagem('Leonardo Meneguetti')
 
-def soma(a, b):
+def soma(a, b): #No python, parametros recebidos são copias dos enviados, mas quando são compostas, funcionam como ponteiro
     s = a + b
     print(f'{a} + {b} = {s}')
 
